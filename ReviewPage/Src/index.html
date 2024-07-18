@@ -1,0 +1,49 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Index</title>
+
+    <script src="/Assets/apiKey.js"></script>
+    <script src="/.JS/openAIAPI.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ace/1.35.2/ace.js" type="text/javascript" charset="utf-8"></script>
+    <script src="https://cdn.jsdelivr.net/gh/google/code-prettify@master/loader/run_prettify.js"></script>
+
+    <script src="/.JS/script.js" defer></script>
+
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="template.css">
+</head>
+<body>
+
+    <h1 id="title">Code Reviewer (Javascript)</h1>
+
+    <div id="editor"></div>
+    <br>
+
+    <button id="reviewCode">Review Code</button>
+    <br>
+
+    <h3>Possible Exceptions</h3>
+    <table class="feedback" id="exceptions" cellspacing="1000">
+        <tr>
+            <th>Code</th>
+            <th>Exception</th>
+            <th>Description</th>
+            <th>Solutions</th>
+        </tr>
+    </table>
+    <br>
+
+    <h3>Improvements</h3>
+    <table class="feedback" id="improvements">
+        <tr>
+            <th>Code</th>
+            <th>Description</th>
+            <th>Solutions</th>
+        </tr>
+    </table>
+</body>
+</html>

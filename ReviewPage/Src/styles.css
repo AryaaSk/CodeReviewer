@@ -1,0 +1,9 @@
+#editor {
+    height: 400px;
+    width: 600px;
+}
+
+.feedback {
+    width: 150%;
+    transform: translateX(-12%);
+}
